@@ -51,11 +51,11 @@ function toggleToDoItemState() {
   }
 }
 
-function clearCompletedToDoItems() {
-  var completedItems = toDoList.getElementsByClassName("completed");
+function clearCompletedToDoItem() {
+  var completedItem = toDoList.getElementsByClassName("completed");
 
-  while (completedItems.length > 0) {
-    completedItems.item(0).remove();
+  while (completedItem.length > 0) {
+    completedItem.item(0).remove();
   }
 }
 
